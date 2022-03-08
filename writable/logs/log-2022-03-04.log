@@ -1,0 +1,48 @@
+CRITICAL - 2022-03-04 06:24:02 --> Call to undefined function App\Controllers\getPost()
+#0 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(825): App\Controllers\Usercontroller->edit('4')
+#1 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usercontroller))
+#2 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_cafe_amelias\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_cafe_amelias\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 06:31:21 --> Call to undefined function App\Controllers\getPost()
+#0 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(825): App\Controllers\Usercontroller->edit('4')
+#1 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usercontroller))
+#2 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_cafe_amelias\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_cafe_amelias\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 06:35:07 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::with(), 1 passed in C:\xampp\htdocs\app_cafe_amelias\app\Controllers\UserController.php on line 64 and exactly 2 expected
+#0 C:\xampp\htdocs\app_cafe_amelias\app\Controllers\UserController.php(64): CodeIgniter\HTTP\RedirectResponse->with('successData Ber...')
+#1 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(825): App\Controllers\Usercontroller->edit('4')
+#2 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usercontroller))
+#3 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_cafe_amelias\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app_cafe_amelias\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 06:36:33 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\app_cafe_amelias\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\app_cafe_amelias\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\app_cafe_amelias\app\Controllers\UserController.php(64): redirect('$data')
+#3 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(825): App\Controllers\Usercontroller->edit('4')
+#4 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usercontroller))
+#5 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app_cafe_amelias\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\app_cafe_amelias\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-04 06:36:54 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::with(), 1 passed in C:\xampp\htdocs\app_cafe_amelias\app\Controllers\UserController.php on line 64 and exactly 2 expected
+#0 C:\xampp\htdocs\app_cafe_amelias\app\Controllers\UserController.php(64): CodeIgniter\HTTP\RedirectResponse->with('successData Ber...')
+#1 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(825): App\Controllers\Usercontroller->edit('4')
+#2 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usercontroller))
+#3 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_cafe_amelias\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app_cafe_amelias\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 08:07:03 --> Undefined variable $val
+#0 C:\xampp\htdocs\app_cafe_amelias\app\Controllers\PesananController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(825): App\Controllers\Pesanancontroller->simpan()
+#2 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanancontroller))
+#3 C:\xampp\htdocs\app_cafe_amelias\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_cafe_amelias\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app_cafe_amelias\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
